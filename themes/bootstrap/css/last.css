@@ -1,0 +1,61 @@
+.two-grids-as-one td {
+    height: 45px;
+}
+
+.two-grids-as-one .header {
+    overflow-x: hidden;
+    width: 40%;
+    height: 100%;
+    float:left;
+}
+
+.two-grids-as-one .data {
+    overflow-x: scroll;
+    width: 60%;
+    height: 100%;
+    float:right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.input-half input[type=text] {
+    width: 60px;
+}
+
+.two-grids-as-one2 td {
+    height: 20px;
+}
+
+.two-grids-as-one2 .header {
+    overflow-x: hidden;
+    width: 30%;
+    float:left;
+}
+
+.two-grids-as-one2 .data {
+    overflow-x: scroll;
+    width: 70%;
+    float:right;
+}
+
+.clearfix2 {
+    clear: both;
+}
+
+body > .container {
+    margin-bottom: 78px;
+}
+
+.loading {
+    background-color: #fff;
+    background-image: url('../images/ajaxloader1.gif');
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+
+.loading * {
+    opacity: 0.6;
+}

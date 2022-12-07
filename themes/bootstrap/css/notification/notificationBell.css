@@ -1,0 +1,22 @@
+#notify_span {
+    position: absolute;
+    display: unset;
+    background: none;
+    color: #000;text-align: center;
+    border-radius: 50%;
+    padding: 0 .8em;
+    font-size: x-small;
+    top: 10%;
+    transition-duration: 0.3s;
+    left: 50%;
+}
+@media (max-width: 768px) {
+    #notify_span {
+        left: 21px;
+        top: 0;
+    }
+    #notificationLink{
+        margin-left: 10px;
+        padding: 5px 10px;
+    }
+}

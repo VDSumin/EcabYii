@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.06.2015, 10:00:09
+    Author     : Evgeny
+*/
+
+.container .jumbotron, .container-fluid .jumbotron {    
+    
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+.footer {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 55px;
+    background-color: #f5f5f5;
+    border: 1px solid transparent;
+    border-color: #B9B9B9;
+    z-index: 2;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;  
+  color: #777;
+  text-align: center;
+}
+
+/* Sticky footer styles END
+-------------------------------------------------- */
+

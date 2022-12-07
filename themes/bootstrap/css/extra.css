@@ -1,0 +1,81 @@
+.summary {
+    text-align: right;
+}
+
+div.news {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    background-color: white;
+    position: relative;
+}
+
+div.news > h2 {
+    display: flex;
+    width: 90%;
+}
+
+div.news .gray {
+    color: gray;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px;
+}
+
+.jumbotron h2 {
+    font-size: 21px;
+}
+
+.jumbotron p {
+    font-size: 14px;
+}
+
+a {
+    cursor: pointer;
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+.contpre small {
+    font-size: 25px;
+}
+
+.contpre {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-align: center;
+    line-height: 35px;
+    right: 0;
+    bottom: 0;
+}
+
+#preloader .svg_anm {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background: url(../images/index.svg) center center no-repeat;
+    background-size: 44px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -10px;
+}

@@ -1,0 +1,10 @@
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+/nbproject/
+/test/
+*local*
+.idea/
+/.idea/workspace.xml
+protected/data/uploads/*

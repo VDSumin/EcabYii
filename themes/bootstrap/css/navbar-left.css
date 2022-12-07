@@ -1,0 +1,83 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.06.2015, 8:58:13
+    Author     : Evgeny
+*/
+
+
+.col-md-9 {
+    width: 815px;
+    float: right;
+    border-left:  1px solid #DDD;
+
+}
+.container._type_study{
+    position: relative;
+}
+
+.col-md-3 {
+    width: 270px;
+    float: left;
+
+}
+.bs-docs-section {
+    margin-bottom: 60px;
+}
+.bs-docs-sidebar {
+    padding-left: 0px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    background-color: #FFF;
+}
+.nav {
+    list-style: outside none none;
+}
+.bs-docs-sidenav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bs-docs-sidebar .nav > li > a:focus, 
+.bs-docs-sidebar .nav > li > a:hover {
+    
+    color: #563D7C;
+    text-decoration: none;
+    background-color:  rgba(236, 236, 236, 0.53);
+    border-right:  1px solid #563D7C;
+}
+.bs-docs-sidebar .nav > li > a {
+    display: block;
+    //padding: 4px 20px;
+    font-size: 13px;
+    text-align: right;
+    font-weight: 500;
+    color: #767676;    
+    margin: 0px 0px -1px;
+    padding: 8px 14px;
+    border: 1px solid #E5E5E5;
+
+}
+
+.bs-docs-sidenav > li:first-child > a {
+    border-radius: 6px 6px 0px 0px;
+}
+
+.bs-docs-sidenav > li:last-child > a {
+    border-radius: 0px 0px 6px 6px;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #EEE;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+   // padding: 10px 15px;
+}
+.affix-top,.affix{
+	position: static;
+}

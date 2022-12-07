@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18.06.2015, 9:03:56
+    Author     : Evgeny
+*/
+
+.two-grids-as-one-static td {
+    height: 30px;
+    border-left: 1px solid #DDD;
+
+
+}
+
+.table._table-ulist.static th {
+    font-size: 12px;
+    //height: 100px;
+}
+
+.two-grids-as-one-static .header {
+    overflow-x: hidden; 
+    width: 20%; 
+    float:left;
+}
+
+.two-grids-as-one-static .data {
+    overflow-x: scroll; 
+    width: 80%; 
+    float:right;
+}
+
+
+table._table-ulist th{
+    text-align: center;
+    font-size: 14px; 
+    
+}
+
+.table._table-ulist._right > tbody > tr > td{    
+    height: 53px;
+}
+
+.table._table-ulist > tbody > tr > td{
+    border-right: 1px solid #DDD;
+    font-size: 14px;
+}
+
+
+
+.table._table-ulist > tbody > tr > td {
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.table._table-ulist  > tbody > tr > td:last-child {
+    border-right: 0px none;
+    
+}
+
+.jumbotron .text-header {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.1;
+}
+
+.form-group._table-ulist {
+    margin-bottom: 0px;
+    height: 30px;
+    padding: 0px;
+}
+
+.table .form-group.date-field {
+    width: 80px;
+}
+
+@media screen and (max-width: 1440px) {
+    table._table-ulist th{        
+        font-size: 12px; 
+    }
+
+    .table._table-ulist > tbody > tr > td{
+        border-right: 1px solid #DDD;   
+        font-size: 12px;
+    }
+
+    .form-group._table-ulist {    
+        font-size: 12px;
+        height: 23px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    table._table-ulist th{        
+        font-size: 11px; 
+    }
+
+    .table._table-ulist > tbody > tr > td{
+        border-right: 1px solid #DDD;   
+        font-size: 11px;
+    }
+
+    .form-group._table-ulist {    
+        font-size: 11px;
+        height: 23px;
+    }
+    
+    .table .form-group.date-field {
+        width: 65px;
+    }
+}

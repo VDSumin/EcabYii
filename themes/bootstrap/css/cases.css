@@ -1,0 +1,60 @@
+#p_prldr {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+.contpre small {
+    font-size: 25px;
+}
+
+.contpre {
+    width: 290px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: auto;
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: -2px;
+    text-align: center;
+    line-height: 35px;
+    right: 0;
+    bottom: 0;
+}
+
+#p_prldr .svg_anm {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background: url(../images/index.svg) center center no-repeat;
+    background-size: 44px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: -10px;
+}
+
+.checkbox {
+    padding-left: 20px;
+}
+
+.checkbox label {
+    display: inline-block;
+    position: relative;
+    padding-left: 5px;
+}
+
+.checkbox input[type="checkbox"]:focus {
+    outline: none;
+}
+
+.checkbox.checkbox-inline {
+    margin-top: 0;
+}

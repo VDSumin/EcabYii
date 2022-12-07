@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16.06.2015, 14:01:41
+    Author     : user
+*/
+
+.jumbotron h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+body {
+    padding-top: 64px;
+}
+
+.jumbotron {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 112px;
+    }
+
+    .navbar-wrapper {
+        display: flex;
+        margin: 0 auto;
+        max-width: max-content;
+        align-items: center;
+        height: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        padding-top: 64px;
+    }
+
+    .navbar-wrapper {
+        height: 50px;
+    }
+}
